@@ -31,7 +31,7 @@ int main()
 
     sort(names.begin(), names.end());
 
-    for(string n : names)
+    for(string& n : names)
         cout << n << endl;
 
     return EXIT_SUCCESS;
